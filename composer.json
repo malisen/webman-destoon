@@ -1,0 +1,18 @@
+{
+    "name": "malisen/webman-destoon",
+    "description": "Webman Destoon Official Runtime",
+    "type": "project",
+    "license": "proprietary",
+    "require": {
+        "php": ">=8.1",
+        "workerman/webman-framework": "^1.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\": "app",
+            "support\\": "support"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
